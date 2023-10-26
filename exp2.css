@@ -1,0 +1,43 @@
+body 
+{
+    background-color: rgb(15, 15, 20);
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: right;
+}
+li a {
+    font-family: sans-serif;
+    color: aquamarine;
+    font-size: 17px;
+    display: block;
+    padding: 8px 16px;
+    
+text-decoration: none;
+}
+li a:hover {
+    background-color: red;
+    color: white;
+}
+div{
+    width: 1150px;
+    display: inline-block;
+}
+div1{
+    display: inline-block;
+}
+h1{
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 50px;
+}
